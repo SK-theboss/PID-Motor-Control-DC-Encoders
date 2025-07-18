@@ -31,4 +31,6 @@ The system allows dynamic setpoint adjustments via onboard buttons, and a visual
 
 ---
 ## Circuit Diagram
-<img width="1280" height="534" alt="circuit_diagram_senthilkumarank" src="https://github.com/user-attachments/assets/75e48261-fa79-477d-b102-d75d1ed44dac" />
+<img width="1280" height="534" alt="circuit_diagram_senthilkumarank" src="https://github.com/user-attachments/assets/e7480bde-d88a-4a18-9200-fa79e6db29c2" />
+
+
