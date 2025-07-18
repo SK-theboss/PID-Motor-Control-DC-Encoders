@@ -34,9 +34,29 @@ The system allows dynamic setpoint adjustments via onboard buttons, and a visual
 <img width="1280" height="534" alt="circuit_diagram_senthilkumarank" src="https://github.com/user-attachments/assets/e7480bde-d88a-4a18-9200-fa79e6db29c2" />
 
 ## Outputs
+
+Formula: 
+Output = (Kp * error) + (Ki * integral of error) + (Kd * derivative of error)
+Where:
+- **error** = Setpoint - Current Position
+- **Kp** = Proportional Gain
+- **Ki** = Integral Gain
+- **Kd** = Derivative Gain
+
+Tuning these parameters enables optimal balance between speed, accuracy, and stability.
+
+---
+
+System Outputs: 
+
 <img width="1920" height="1129" alt="output" src="https://github.com/user-attachments/assets/a9425f72-f7b4-434b-8c55-177d457ef2d6" />
 
+
 Video Link:
-https://drive.google.com/file/d/1ZP5Iaj4Nf5-DhFtm1_kYQE4Od7PKr4X2/view?usp=sharing
 
+**[Click here to view the demo video](https://drive.google.com/file/d/1ZP5Iaj4Nf5-DhFtm1_kYQE4Od7PKr4X2/view?usp=sharing)**
 
+## Conclusion
+This project demonstrates a successful **dual DC motor position control system** using PID, encoders, and Arduino. It offers a **cost-effective, scalable**, and **customizable solution** for applications requiring precise motor control in robotics and automation.
+
+---
